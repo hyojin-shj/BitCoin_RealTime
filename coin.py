@@ -47,7 +47,7 @@ def update_readme():
 # 🚀 Crypto Real-Time Tracker
 
 <p align="center">
-  <img src="coin.jpg width="100" />
+  <img src="coin.jpg" width="100" />
 </p>
 
 <div align="center">
