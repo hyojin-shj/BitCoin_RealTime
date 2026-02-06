@@ -30,11 +30,13 @@ jobs:
     - name: Run coin.py
       run: |
           python coin.py
+      env:
+        COIN_API_KEY: ${{ secrets.COIN_API_KEY }}
           
     - name: Commit and Push
       run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "자동 업데이트: 서울 날씨 정보 갱신" || echo "No changes to commit"
+          git commit -m "자동 업데이트: 코인 정보 갱신" || echo "No changes to commit"
           git push
