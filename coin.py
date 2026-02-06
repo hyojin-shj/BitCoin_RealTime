@@ -39,7 +39,7 @@ def get_btc_usd():
         return f"성공은 했는데 파싱 실패: {str(data)[:200]}"
 
 def update_readme():
-    price_info = get_bitcoin_price()
+    price_info = get_btc_usd()
     now_utc = datetime.utcnow()
     now_kst = now_utc + timedelta(hours=9)
     formatted_time = now_kst.strftime("%Y-%m-%d %H:%M:%S")
