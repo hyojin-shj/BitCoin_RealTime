@@ -3,6 +3,7 @@ import requests
 from datetime import datetime
 
 def get_bitcoin_price():
+    api_key = os.environ.get("COIN_API_KEY")
     url = "https://api.coindesk.com/v1/bpi/currentprice.json"
     response = requests.get(url)
     
