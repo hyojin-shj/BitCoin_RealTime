@@ -26,7 +26,7 @@ jobs:
         pip install datetime
         pip install requests
         
-    - name: Run coin.pu
+    - name: Run coin.py
       run: |
           python coin.py
           
