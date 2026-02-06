@@ -1,5 +1,5 @@
+import os
 import requests
-
 from datetime import datetime
 
 def get_bitcoin_price():
