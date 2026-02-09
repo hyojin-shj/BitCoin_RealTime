@@ -15,10 +15,10 @@
 ### 📊 Market Overview
 | Asset | Current Price (USD) | Status |
 | :--- | :---: | :---: |
-| **Bitcoin (BTC)** | `$68655.283224369` | 🟢 Live |
+| **Bitcoin (BTC)** | `$68665.6757916102` | 🟢 Live |
 
 > [!TIP]
-> **최근 업데이트:** `2026-02-09 20:13:19 (KST)`  
+> **최근 업데이트:** `2026-02-09 20:20:10 (KST)`  
 > 이 리포지토리는 오픈 데이터를 활용하여 투명한 시세 정보를 제공합니다.
 
 ---
@@ -33,7 +33,7 @@
 <details>
   <summary><b>어떻게 작동하나요? (How it works)</b></summary>
   <br />
-  1. <b>Cron Job:</b> 하루 1회 00:00분에 워크플로우를 트리거합니다.<br />
+  1. <b>Cron Job:</b> 5분마다 워크플로우를 트리거합니다.<br />
   2. <b>Python Script:</b> CoinDesk API를 통해 최신 시세를 수집합니다.<br />
   3. <b>Git Bot:</b> 갱신된 내용을 자동으로 README에 커밋하고 푸시합니다.
 </details>
